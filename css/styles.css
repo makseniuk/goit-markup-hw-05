@@ -694,7 +694,7 @@ color: #4D5AE5;
     margin-bottom: 4px;
 }
 
-.input-div{
+.form-div{
     position: relative;
 }
 
@@ -724,6 +724,10 @@ color: #4D5AE5;
 
 .modal-icons:focus{
     fill: #4D5AE5;
+}
+
+.comment-div{
+    margin-bottom: 16px;
 }
 
 .modal-textarea{
