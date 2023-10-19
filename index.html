@@ -408,9 +408,51 @@
                         </a>
                     </li>
                 </ul>
+                
             </div>
-        
+            <form class="footer-form">
+                    <label class="footer-label">
+                        Subscribe
+                        <input type="email" name="subscribe" class="footer-input">
+                    </label>
+                </form>
     </div>
     </footer>
+    <div class="backdrop">
+        <div class="modal">
+        <button type="button" class="icon-close-btn"> 
+            <svg class="modal-close-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+            </svg>
+        </button>
+
+            <p class="modal-title">Leave your contacts and we will call you back</p>
+
+            <form class="modal-form">
+                <label class="modal-form-label">
+                    Name
+                <input type="text" name="user-name" class="modal-input">
+                </label>
+                <label class="modal-form-label">
+                    Phone
+                <input type="tel" name="user-phone" class="modal-input">
+                </label>
+                <label class="modal-form-label">
+                    Email
+                <input type="email" name="user-email" class="modal-input">
+                </label>
+                <label class="modal-form-label">
+                    Comment
+                    <textarea type="text" name="comment" rows="5" cols="5" placeholder="Text input" class="modal-input"></textarea>
+                </label>
+                <input type="checkbox" name="privacy" class="modal-checkbox checkbox" />
+                <p class="checkbox-text">I accept the terms and conditions of the</p>
+                <a href="" class="checkbox-link">Privacy Policy</a>
+            </form>
+            <button class="modal-btn" type="button">
+                <p class="modal-btn-text">Send</p>
+            </button>
+        </div>
+    </div>
 </body>
 </html>

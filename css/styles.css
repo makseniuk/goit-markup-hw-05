@@ -549,3 +549,135 @@ color: #4D5AE5;
 .footer-icons{
     fill: #f4f4fd;
 }
+
+.footer-label{
+    color: var(--WHITE, #FFF);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.footer-input{
+    width: 264px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* form */
+
+.backdrop{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #2E2F4266;
+    top: 0;
+    left: 0;
+}
+
+.modal{
+    width: 408px;
+    height: 584px;
+    background-color: #FCFCFC;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 24px;
+}
+
+.icon-close-btn{
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.modal-close-icon{
+    fill: #2E2F42;
+}
+
+.modal-title{
+    align-items: center;
+    margin-top: 72px;
+    margin-bottom: 16px;
+    max-width: 360px;
+}
+
+.modal-form-label{
+    color: #8E8F99;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+}
+
+.modal-input{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    margin-bottom: 8px;
+    background-color: transparent;
+    font-size: 16px;
+    padding-left: 38px;
+}
+
+.modal-input:hover,:focus{
+    border: 1px solid #4D5AE5;
+}
+
+.checkbox-text{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    color: #8E8F99;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.16;
+        letter-spacing: 0.02em;
+}
+
+.checkbox-link{
+    display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8px;
+        color: #4D5AE5;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.16;
+        letter-spacing: 0.02em;
+        text-decoration: underline;
+}
+
+.modal-btn{
+    background-color: #4D5AE5;
+    display: flex;
+    padding: 16px 32px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.modal-btn-text{
+    width: 105px;
+    height: 24px;
+    font-family: inherit;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    border: transparent;
+}
