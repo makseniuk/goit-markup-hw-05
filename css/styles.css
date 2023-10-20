@@ -775,7 +775,7 @@ color: #4D5AE5;
     fill: transparent;
 }
 
-.input-class:checked + .checkbox-span{
+.input-class:checked{
     fill: #F4F4FD;
     background-color: #404bbf;
     border: none;
