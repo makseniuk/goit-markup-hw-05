@@ -722,7 +722,7 @@ color: #4D5AE5;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-div:focus .modal-icons{
+.input-div:focus + .modal-icons{
     fill: #4D5AE5;
 }
 
@@ -775,12 +775,10 @@ color: #4D5AE5;
     fill: transparent;
 }
 
-.input-class:checked{
-    background-color: #404bbf;
-}
-
-.input-class:checked.checkbox-span{
+.input-class:checked + .checkbox-span{
     fill: #F4F4FD;
+    background-color: #404bbf;
+    border: none;
 }
 
 .checkbox-link {
