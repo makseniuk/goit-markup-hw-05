@@ -775,10 +775,10 @@ border: 1px solid rgba(46, 47, 66, 0.4);
     fill: transparent;
 }
 
-.input-checkbox:checked+.checkbox-span{
-    fill: #F4F4FD;
-    background-color: #404bbf;
+.input-checkbox:checked+.label-checkbox>.checkbox-span {
     border: none;
+    fill: #F4F4FD;
+    background-color: #404BBF;
 }
 
 .checkbox-link {
