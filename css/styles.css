@@ -672,11 +672,6 @@ color: #4D5AE5;
     fill: #ffffff;
 }
 
-/* .modal-close-icon:focus,
-.modal-close-icon:hover{
-    fill: #ffffff;
-} */
-
 .modal-title{
     font-weight: 500;
     line-height: 1.5;
@@ -809,7 +804,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
     text-decoration: underline;
 }
 
-.modal-btn{
+.modal-btn-send{
     display:block;
     min-width: 169px;
     height: 56px;
