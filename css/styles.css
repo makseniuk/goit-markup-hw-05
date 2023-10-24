@@ -523,6 +523,7 @@ color: #4D5AE5;
 .footer-icons-list{
     display: flex;
     gap: 16px;
+    margin-right: 80px;
 }
 
 .footer-icons-items{
@@ -602,6 +603,7 @@ color: #4D5AE5;
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+    margin: 0 aoto;
 }
 
 .footer-form-icon{
